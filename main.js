@@ -1,7 +1,7 @@
 (function(){
   "use strict";
 
-  var clockFace = document.querySelector('#elapsed-time');
+  var clockFace = document.querySelector('.elapsed-time');
   var isHovering = false;
 
   function formatTime(hours, minutes, seconds){
